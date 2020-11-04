@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<sounds defaultAnsiColor="&#27;[34m">
+
+	<sound logPattern="(.+)родила   телёнок буйвола\.">
+	</sound>
+	<sound logPattern="(.+) вырос и стал бродячий буйволица\.">
+ 	</sound> 
+	
+</sounds>

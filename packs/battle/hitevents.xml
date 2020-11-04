@@ -1,0 +1,262 @@
+﻿<?xml version="1.1" encoding="UTF-8"?>
+<sounds>
+
+	<sound logPattern=" (.+), давя это!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+
+		<soundFile fileName="gore/bruise1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise4.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern=" (.+), давя это через (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/bruise5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern=" (.+), давя  (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/bruise1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise4.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern=" (.+), давя  (.+) через (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/bruise5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern=" (.+), давя это (.+) через (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/bruise5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), но атака соскальзывает!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/glance1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance5.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern=" (.+), но атака отражена  (.+) (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/glance1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance5.mp3" randomBalance="true" />
+	</sound>
+	<!-- он   гоблин Пикинёр    в   часть тела, но атака отражена  гоблин Пикинёр ({®из железа нагрудникЇ})! -->
+	<sound logPattern="(.+), но атака отражена  (.+) (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/glance1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/glance5.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), разрубая   (.) через (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/chipbreak1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), разрубая   (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/chipbreak1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), вдавливая  (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/bruise1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/bruise4.mp3" randomBalance="true" />	
+		<soundFile fileName="gore/bruise5.mp3" randomBalance="true" />	
+		<soundFile fileName="gore/bruise6.mp3" randomBalance="true" />	
+	</sound>
+	
+	<sound logPattern=" (.+), раздробляя  (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/chipbreak1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), раздробляя   (.+) через (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/chipbreak1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), сжимая (.+) через (.+)  (.+) и сокрушая   (.+)  (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/chipbreak1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), сжимая (.+) через (.+)  (.+) и сокрушая   (.+)  (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/chipbreak1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak6.mp3" randomBalance="true" />
+
+	</sound>
+	
+	<sound logPattern="(.+), дробя  это!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/chipbreak1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), дробя  (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/chipbreak1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), дробя  (.+) и давя  (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/chipbreak1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+),  и сокрушая   (.+) через   (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/chipbreak1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/chipbreak6.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern=" (.+), разрывая на части  (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern=" (.+), разрывая на части  (.+) и давя    (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern=" (.+), разрывая на части   (.+) и давя    (.+) через (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern=" (.+), разрывая на части  через   (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern=" (.+), разрывая  (.+)" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), разрывая   (.+) и давя  (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+), разрывая  (.+) через  (.+)!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+) и оторванная часть тела улетает по дуге!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="gore/tearheavygore1.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore2.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore3.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore4.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore5.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore6.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore7.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore8.mp3" randomBalance="true" />
+		<soundFile fileName="gore/tearheavygore9.mp3" randomBalance="true" />
+	</sound>
+	
+	<!-- sparring -->
+	
+	<sound logPattern="(.+), слегка коснувшись цели!" haltOnMatch="false" concurency="4" timeout="500" playbackThreshhold="4">
+		<soundFile fileName="hit/strike/strike1.mp3" />
+		<soundFile fileName="hit/strike/strike2.mp3" />
+		<soundFile fileName="hit/strike/strike3.mp3" />
+	</sound>
+		
+</sounds>

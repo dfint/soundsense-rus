@@ -1,0 +1,188 @@
+﻿<?xml version="1.1" encoding="UTF-8"?>
+<sounds>
+	
+	<sound logPattern="  (.+) и (.+) поженились.  Поздравляем!">
+	</sound>
+
+	<sound logPattern="Они организовали свадьбу в (.+)\." playbackThreshhold="3">
+		<soundFile fileName="Party/Party1.mp3" />
+		<soundFile fileName="Party/Party2.mp3" />
+		<soundFile fileName="Party/Party3.mp3" />
+		<soundFile fileName="Party/Party4.mp3" />
+	</sound>
+	
+	<sound logPattern="Они решили отказаться от формальных торжеств\.">
+	</sound>
+	
+	<sound logPattern=" (.+) организовал вечеринку у (.+)\." playbackThreshhold="3">
+		<soundFile fileName="Party/Party1.mp3" />
+		<soundFile fileName="Party/Party2.mp3" />
+		<soundFile fileName="Party/Party3.mp3" />
+		<soundFile fileName="Party/Party4.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) родила мальчика\." playbackThreshhold="3">
+		<soundFile fileName="babyborn/babyborn_01.mp3" />
+		<soundFile fileName="babyborn/babyborn_02.mp3" />
+		<soundFile fileName="babyborn/babyborn_03.mp3" />
+		<soundFile fileName="babyborn/babyborn_04.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) родила девочку\." playbackThreshhold="3">
+		<soundFile fileName="babyborn/babyborn_01.mp3" />
+		<soundFile fileName="babyborn/babyborn_02.mp3" />
+		<soundFile fileName="babyborn/babyborn_03.mp3" />
+		<soundFile fileName="babyborn/babyborn_04.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) родила ((двойню)|(тройню))\." playbackThreshhold="3">
+		<soundFile fileName="babyborn/babyborn_01.mp3" />
+		<soundFile fileName="babyborn/babyborn_02.mp3" />
+		<soundFile fileName="babyborn/babyborn_03.mp3" />
+		<soundFile fileName="babyborn/babyborn_04.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) прекращает (.+): Ищет ребенка\.">
+	</sound>
+	
+	<sound logPattern="(.+) прекращает Искать ребёнка: Ребёнок недоступен\.">
+	</sound>
+	
+	<sound logPattern="(.+) вырос и стал((Дварф )?)ребенок\.">
+	</sound>
+
+	<sound logPattern=" В этом сезоне крепость не привлекла мигрантов\." playbackThreshhold="3" ansiFormat="&#27;[31m">
+		<soundFile fileName="MigrantsNone/MigrantsNone1.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone2.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone3.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone4.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone5.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone6.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone7.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone8.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone9.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone10.mp3" />
+	</sound>
+	
+	<sound logPattern=" В этом сезоне никто и не подумал идти в такое опасное место\." playbackThreshhold="3">
+		<soundFile fileName="MigrantsNone/MigrantsNone1.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone2.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone3.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone4.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone5.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone6.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone7.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone8.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone9.mp3" />
+		<soundFile fileName="MigrantsNone/MigrantsNone10.mp3" />
+	</sound>
+	
+	<sound logPattern="Прибыло несколько мигрантов\." playbackThreshhold="2" ansiFormat="&#27;[34;1m">
+		<soundFile fileName="MigrantsArrived/MigrantsArrived1.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived2.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived3.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived4.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived5.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived6.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived7.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived8.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived9.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived10.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived11.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived12.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived13.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived14.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived15.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived16.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived17.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived18.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived19.mp3" />
+	</sound>
+	
+	<sound logPattern="Несмотря на опасность, прибыло немного мигрантов\." playbackThreshhold="2" ansiFormat="&#27;[34;1m">
+		<soundFile fileName="MigrantsArrived/MigrantsArrived1.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived2.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived3.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived4.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived5.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived6.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived7.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived8.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived9.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived10.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived11.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived12.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived13.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived14.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived15.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived16.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived17.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived18.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived19.mp3" />
+	</sound>
+	
+	<sound logPattern="Некоторые мигранты решили прийти сюда, хотя знали, что могут погибнуть\." playbackThreshhold="2" ansiFormat="&#27;[34;1m">
+		<soundFile fileName="MigrantsArrived/MigrantsArrived1.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived2.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived3.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived4.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived5.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived6.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived7.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived8.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived9.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived10.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived11.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived12.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived13.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived14.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived15.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived16.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived17.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived18.mp3" />
+		<soundFile fileName="MigrantsArrived/MigrantsArrived19.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) вырос и стал Крестья\." playbackThreshhold="2" ansiFormat="&#27;[34;1m">
+		<soundFile fileName="promotions/29697__HerbertBoland__PianoMood1.mp3" />
+		<soundFile fileName="promotions/29701__HerbertBoland__PianoMood2.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) is more experienced\.">
+	</sound>
+	
+	<sound logPattern="(.+) стал лидер экспедиции\." playbackThreshhold="4">
+		<soundFile fileName="promotions/29819__HerbertBoland__PianoMood14.mp3" />
+		<soundFile fileName="promotions/29820__HerbertBoland__PianoMood15.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) стал командир ополчения\." playbackThreshhold="4">
+		<soundFile fileName="promotions/29819__HerbertBoland__PianoMood14.mp3" />
+		<soundFile fileName="promotions/29820__HerbertBoland__PianoMood15.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) и окружающие земли были сделаны баронство\." playbackThreshhold="3" ansiFormat="&#27;[33m">
+		<soundFile fileName="promotions/29837__HerbertBoland__PianoMood32.mp3" />
+		<soundFile fileName="promotions/29839__HerbertBoland__PianoMood34.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) и окружающие земли были сделаны графство\." playbackThreshhold="3" ansiFormat="&#27;[33m">
+		<soundFile fileName="promotions/29837__HerbertBoland__PianoMood32.mp3" />
+		<soundFile fileName="promotions/29839__HerbertBoland__PianoMood34.mp3" />
+	</sound>
+
+	<sound logPattern="(.+) и окружающие земли были сделаны a герцогство\." playbackThreshhold="3" ansiFormat="&#27;[33m">
+		<soundFile fileName="promotions/29837__HerbertBoland__PianoMood32.mp3" />
+		<soundFile fileName="promotions/29839__HerbertBoland__PianoMood34.mp3" />
+	</sound>
+	
+	<!-- too much of random spam for this. -->
+	<sound logPattern="(.+) стал (.+)\.">
+	</sound>
+	
+	<!-- добавил -->
+		<sound logPattern="(.+) вырос рядом с (.+)!">
+	</sound>
+
+
+</sounds>

@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<sounds defaultAnsiColor="&#27;[34m">
+
+	<sound logPattern="(.+) родила   детёныш крылатой жукомыши\.">
+	</sound>
+	
+	<sound logPattern="(.+) родила детеныши крылатой жукомыши\.">
+	</sound>
+	
+	<sound logPattern="(.+) вырос и стал Ничей крылатая жукомышь\.">
+	</sound>
+	
+</sounds>

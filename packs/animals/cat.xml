@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<sounds defaultAnsiColor="&#27;[34m">
+	
+	<sound logPattern="(.+) родила ((котёнок)|(котята))\." playbackThreshhold="3">
+		<soundFile fileName="cat/18272__zippi1__sound_meow3.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="Животное вырос и стал Ничей кошка\." playbackThreshhold="4">
+		<soundFile fileName="cat/4913__NoiseCollector__cat1.mp3" randomBalance="true" />
+		<soundFile fileName="cat/33657__Corsica_S__Meow.mp3" randomBalance="true" />
+	</sound>
+	
+	<!-- named kitten growing -->
+	<sound logPattern="(.+) вырос и стал кошка\." playbackThreshhold="4">
+		<soundFile fileName="cat/4913__NoiseCollector__cat1.mp3" randomBalance="true" />
+		<soundFile fileName="cat/33657__Corsica_S__Meow.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+) вырос и стал Ничей  кошка\." playbackThreshhold="4">
+		<soundFile fileName="cat/4913__NoiseCollector__cat1.mp3" randomBalance="true" />
+		<soundFile fileName="cat/33657__Corsica_S__Meow.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+) стал Ничей  кошка\." playbackThreshhold="4">
+		<soundFile fileName="cat/4913__NoiseCollector__cat1.mp3" randomBalance="true" />
+		<soundFile fileName="cat/33657__Corsica_S__Meow.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+) принял (.+)" playbackThreshhold="3">
+		<soundFile fileName="cat/24966__mich3d__CatPurring_01.mp3" randomBalance="true" />
+	</sound>
+	
+</sounds>

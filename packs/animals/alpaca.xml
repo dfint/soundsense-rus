@@ -1,0 +1,13 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<sounds defaultAnsiColor="&#27;[34m">
+
+	<sound logPattern="(.+) вырос и стал альпака\.">
+	</sound>
+	
+	<sound logPattern="(.+) вырос и стал Ничей альпака\.">
+	</sound>	
+	
+	<sound logPattern="(.+) родила   детёныш альпаки\.">
+	</sound>
+	
+</sounds>

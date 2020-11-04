@@ -1,0 +1,10 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<sounds defaultAnsiColor="&#27;[34m">
+
+	<sound logPattern="(.+) вырос и стал синий ((пава)|(павлин))\.">
+	</sound>
+	
+	<sound logPattern="(.+) вырос и стал бродячий синий ((пава)|(павлин))\.">
+	</sound>
+
+</sounds>

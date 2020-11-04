@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements>
+
+	<achievementPattern logPattern="(.+)   создал шедевр!">
+		<achievement title="Ремесленник" description="Создал шедевр." triggerAmount="1" image="masterpiece.png" />
+		<achievement title="Фонд промышленности" description="Создал 10 шедевров." triggerAmount="10" image="masterpiece.png" />
+		<achievement title="Легендарный ремесленник" description="Созда 100 шедевров." triggerAmount="100" image="masterpiece.png" />
+		<achievement title="Ваши дела легендарны" description="Созда 1000 шедевров." triggerAmount="1000" image="masterpiece.png" />
+    <achievement title="Индустриальная революция" description="Созда 10000 шедевров." triggerAmount="10000" image="masterpiece.png" />
+	</achievementPattern>
+	
+	<achievementPattern logPattern="(.+) родила ((котёнок)|(котята))\.">
+		<achievement title="Прекрасный маленький котенок" description="Кошка родила." triggerAmount="1" image="cats.png" />
+		<achievement title="Свободная раздача котят!" description="Кошки родили 2 раза." triggerAmount="2" image="cats.png" />
+		<achievement title="У нас могут быть проблемы с котами..." description="Кошка родила четыре раза." triggerAmount="4" image="cats.png" />
+		<achievement title="Котаклизм!" description="Кошки родили 8 раз." triggerAmount="8" image="cats.png" />
+		<achievement title="Термоядерный котаклизм!" description="Кошка родила 16 раз." triggerAmount="16" image="cats.png" />
+		<achievement title="Мяу?" description="Кошки родили 32 раза." triggerAmount="32" image="cats.png" />
+		<achievement title="Мяу!" description="Кошки родили 64 раза." triggerAmount="64" image="cats.png" />
+		<achievement title="Котоводство карается смертной казнью" description="Кошки родили 128 раз." triggerAmount="128" image="cats.png" />
+	</achievementPattern>
+	
+	<achievementPattern logPattern=" Ничей кошка \(Ручной\) был забит\.">
+		<achievement title="Обряд дварфов пройден" description="&quot;Утилизация&quot; вашего первого котенка."  triggerAmount="1" image="cats.png" />
+		<achievement title="Нет котаклизму!" description="На мясо 10 котов." triggerAmount="10" image="cats.png" />
+		<achievement title="Критическое массовое истребление котов" description="На мясо 100 котов." triggerAmount="100" image="cats.png" />
+		<achievement title="Промышленное истребление котов" description="На мясо 1000 котов." triggerAmount="1000" image="cats.png" />
+	</achievementPattern>
+	
+	<achievementPattern logPattern="Вы нашли (.+)!">
+		<achievement title="Ударим по земле!" description="Открыто месторождение." triggerAmount="1" image="ore.png" />
+		<achievement title="Глубокий копатель!" description="Открыто 10 месторождений." triggerAmount="10" image="ore.png" />
+		<achievement title="Подземное разнообразие" description="Открыто 100 месторождений." triggerAmount="100" image="ore.png" />
+		<achievement title="Может быть, мы должны выйти ненадолго..." description="Открыто 1000 месторождений." triggerAmount="1000" image="ore.png" />
+	</achievementPattern>
+	
+	<achievementPattern logPattern=" (.+) организовал вечеринку у (.+)\.">
+		<achievement title="Время для вечеринки! Великолепно!" description="Пусть дварфы повеселятся." triggerAmount="1" image="dwarf.png" />
+	</achievementPattern>
+	
+  <achievementPattern logPattern="(.+) в голова с (.+) и оторванная часть тела улетает по дуге!">
+    <achievement title="Катится, катится по земле!" description="Видел отсечение головы." triggerAmount="1" />
+    <achievement title="Пристрастившийся головорез." description="Видел 10 отсечений головы." triggerAmount="10" />
+    <achievement title="Это дождь из голов." description="Видел 100 отсечений головы." triggerAmount="100" />
+    <achievement title="Безголовый." description="Видел 1000 отсечений головы." triggerAmount="1000" />
+  </achievementPattern>
+  
+  <achievementPattern logPattern="(.+) был найден мёртвым\.">
+    <achievement title="Посмотрите что я нашел!" description="Найдено мертвое тело." triggerAmount="1" />
+    <achievement title="Могу я сохранить это?" description="Найдено 10 мертвых тел." triggerAmount="10" />
+    <achievement title="Где мы должны хранить это?" description="Найдено 100 мертвых тел." triggerAmount="100" />
+    <achievement title="Найдены и забыты" description="Найдено 1000 мертвых тел." triggerAmount="1000" />
+  </achievementPattern>
+  
+  <achievementPattern logPattern="(.+) пришел! ((в)|(к)) (.+)">
+    <achievement title="Незванный гость" description="Мега тварь прибыла." triggerAmount="1" />
+    <achievement title="Незванные гости" description="10 мега тварей прыбыло." triggerAmount="10" />
+  </achievementPattern>
+  
+  <achievementPattern logPattern="Вы обнаружили (.+)">
+    <achievement title="Исследователь" description="Обнаружено особенность карты." triggerAmount="1" />
+    <achievement title="Искатель" description="Обнаружено 10 особенностей карты." triggerAmount="10" />
+  </achievementPattern>
+  
+  <achievementPattern logPattern="(.+) создал (.+), (.+)!">
+    <achievement title="Примечательно" description="Создан артефакт." triggerAmount="1" />
+    <achievement title="Артифабрика" description="Созданно 100 артефактов." triggerAmount="100" />
+  </achievementPattern>
+  
+  <achievementPattern logPattern="(.+) было завершено\.">
+    <achievement title="Босс" description="Зделано 5 заказов мастерских." triggerAmount="5" />
+    <achievement title="Микроуправление" description="Зделано 25 заказов мастерских." triggerAmount="25" />
+    <achievement title="Крутая экономика" description="Зделано 125 заказов мастерских." triggerAmount="125" />
+    <achievement title="Централизованная экономика" description="Зделано 625 заказов мастерских." triggerAmount="625" />
+  </achievementPattern>
+  
+  <achievementPattern logPattern=" летящий (.+)болт(.+) бьёт гоблин (.+) разрывая сердце(.+)">
+    <achievement title="Сердцепоражатель" description="Поражено 5 сердец гоблинов болтом арбалета." triggerAmount="5" />
+    <achievement title="Купидон" description="Поражено 50 сердец гоблинов болтом арбалета." triggerAmount="50" />
+    <achievement title="Победитель умов и сердец" description="Поражено 500 сердец гоблинов болтом арбалета." triggerAmount="500" />
+  </achievementPattern>
+  
+  <achievementPattern logPattern="(.+) голода(.+)">
+  <achievement title="Вы ничего не забыли ?" description="Дварфы умирают от голода..." triggerAmount="50" />   
+  </achievementPattern>  
+	
+</achievements>

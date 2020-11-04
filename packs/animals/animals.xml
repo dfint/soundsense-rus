@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<sounds defaultAnsiColor="&#27;[34m">
+
+	<sound logPattern="(.+) родила ((  жеребенок)|(жеребята))\." playbackThreshhold="3">
+		<soundFile fileName="18229__dobroide__20060419horse.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="Животное вырос и стал Ничей конь\." playbackThreshhold="4">
+		<soundFile fileName="59569__3bagbrew__horse.mp3" randomBalance="true" />
+	</sound>
+
+	<sound logPattern="(.+) родила ((осленок)|(ослята))\." playbackThreshhold="3">
+		<soundFile fileName="19489__acclivity__Donkey3.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+) вырос и стал Ничей осел\." playbackThreshhold="4">
+		<soundFile fileName="16933__acclivity__Donkey.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+) вырос и стал Осел\." playbackThreshhold="4">
+		<soundFile fileName="16933__acclivity__Donkey.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+) родила   двугорбый верблюженок\." playbackThreshhold="3">
+		<soundFile fileName="camelborn.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="Животное вырос и стал Ничей двугорбый верблюд\." playbackThreshhold="4">
+		<soundFile fileName="camelmature.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+) родила одногорбый верблюженок\." playbackThreshhold="3">
+		<soundFile fileName="camelborn.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="Животное вырос и стал Ничей одногорбый верблюд\." playbackThreshhold="4">
+		<soundFile fileName="camelmature.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+) родила ((  (теленок)|(теленок))|((телята)|(телята)))\." playbackThreshhold="3">
+		<soundFile fileName="58277__Benboncan__Cow.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="Животное вырос и стал Ничей ((корова)|(бык))\." playbackThreshhold="4">
+		<soundFile fileName="57791__reinsamba__1192_cow_close.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="вырос и стал  ((корова)|(бык))\." playbackThreshhold="4">
+		<soundFile fileName="57791__reinsamba__1192_cow_close.mp3" randomBalance="true" />
+	</sound>
+	
+	<sound logPattern="(.+) вырос и стал Ничей мул\." playbackThreshhold="4">
+	</sound>
+
+</sounds>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<executors>
+
+	<executor logPattern="\*\* Запуск нового аванпоста \*\*" call="${baseDir}/dfhack-run soundsense" />
+	<executor logPattern="\*\* Загрузка Крепости \*\*" call="${baseDir}/dfhack-run soundsense" />
+	<executor logPattern="\*\* Запуск возврата \*\*" call="${baseDir}/dfhack-run soundsense" />
+
+</executors>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.1" encoding="UTF-8"?>
+<sounds defaultAnsiFormat="&#27;[35m">
+
+	<sound logPattern="(.+)   утонул\." playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) умер от жажды\." playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) умер от голода\." playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+	</sound>
+
+	<sound logPattern="(.+) был сражён\." playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+		
+		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
+		<soundFile fileName="gutwrenching_scream.mp3" />
+	</sound>
+
+	<sound logPattern="(.+) раздавлен мостом\." playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+		
+		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
+		<soundFile fileName="gutwrenching_scream.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) умер при столкновении с препятствием\." playbackThreshhold="2">
+		<!-- http://www.freesound.org/samplesViewSingle.php?id=52143 -->
+		<soundFile fileName="50776__smcameron__fall_with_impact.mp3" />
+		
+		<soundFile fileName="WilhelmScream_vbr.mp3" weight="10" />
+		
+		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
+		<soundFile fileName="gutwrenching_scream.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) врезается в препятствие и бьёт на части!" playbackThreshhold="2">
+		<!-- http://www.freesound.org/samplesViewSingle.php?id=52143 -->
+		<soundFile fileName="50776__smcameron__fall_with_impact.mp3" />
+		
+		<soundFile fileName="WilhelmScream_vbr.mp3" weight="10" />
+		
+		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
+		<soundFile fileName="gutwrenching_scream.mp3" />
+	</sound>
+
+	<sound logPattern="(.+) истёк кровью\." playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) умер от старости\." playbackThreshhold="3">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) задохнулся\." playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) погребён во льду\." playbackThreshhold="3">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) погребён в застывшей лаве\.">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) застрелен\." playbackThreshhold="2"> 
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+		
+		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
+		<soundFile fileName="gutwrenching_scream.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) умер от заражения\." playbackThreshhold="3">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" weight="10" />
+	</sound>
+	
+	<sound logPattern="(.+) был насажен на колья\." playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+		
+		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
+		<soundFile fileName="gutwrenching_scream.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) убит ловушкой\." playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+		
+		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
+		<soundFile fileName="gutwrenching_scream.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) был убит (.+)!" haltOnMatch="false" playbackThreshhold="1">
+		<!-- http://soundbible.com/33-Evil-Laugh-Cackle.html -->
+		<soundFile fileName="../moods/Evil Laugh Cackle-SoundBible.com-957382653.mp3" volumeAdjustment="-5" />
+	</sound>
+	
+	<sound logPattern="(.+) был убит (.+)!" playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+		
+		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
+		<soundFile fileName="gutwrenching_scream.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) был напуган до смерти (.+)!" haltOnMatch="false" playbackThreshhold="1">
+		<!-- http://soundbible.com/33-Evil-Laugh-Cackle.html -->
+		<soundFile fileName="../moods/Evil Laugh Cackle-SoundBible.com-957382653.mp3" volumeAdjustment="-5" />
+	</sound>
+	
+	<sound logPattern="(.+) был напуган до смерти (.+)!" playbackThreshhold="2">
+		<!-- http://www.archive.org/details/WilhelmScreamSample -->
+		<soundFile fileName="WilhelmScream_vbr.mp3" />
+		
+		<!-- http://www.freewebs.com/notthewilhelmscream/download.html -->
+		<soundFile fileName="gutwrenching_scream.mp3" />
+	</sound>
+	
+	<sound logPattern="(.+) задавлен\.">
+		<!-- http://opengameart.org/content/8-wet-squish-slurp-impacts -->
+		<soundFile fileName="slaugtering/impactsplat01.mp3" randomBalance="true" />
+		<soundFile fileName="slaugtering/impactsplat03.mp3" randomBalance="true" />
+	</sound>
+
+</sounds>
